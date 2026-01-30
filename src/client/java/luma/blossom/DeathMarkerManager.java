@@ -197,7 +197,7 @@ public class DeathMarkerManager {
             long accumulatedTicks = json.get("accumulatedTicks").getAsLong();
             
             BlockPos position = new BlockPos(x, y, z);
-            ResourceKey<Level> dimension = ResourceKey.create(Registries.DIMENSION, new ResourceLocation(dimensionStr));
+            ResourceKey<Level> dimension = ResourceKey.create(Registries.DIMENSION, ResourceLocation.parse(dimensionStr));
             
             currentMarker = new DeathMarkerData(position, dimension, accumulatedTicks);
             LOGGER.info("Loaded death marker from {} at {} in {}", saveFile, position, dimensionStr);

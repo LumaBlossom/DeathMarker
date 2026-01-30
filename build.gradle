@@ -1,5 +1,5 @@
 plugins {
-	id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
+	id 'fabric-loom' version "${loom_version}"
 	id 'maven-publish'
 }
 
@@ -7,7 +7,7 @@ version = project.mod_version
 group = project.maven_group
 
 base {
-	archivesName = "${project.minecraft_version}-${project.archives_base_name}"
+	archivesName = "${project.archives_base_name}-${project.minecraft_version}"
 }
 
 repositories {
@@ -44,12 +44,11 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 	
 	// Cloth Config
-	modApi("me.shedaniel.cloth:cloth-config-fabric:11.1.118") {
+	modApi("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
 	
-	// Mod Menu (optional, for config button)
-	modImplementation "com.terraformersmc:modmenu:7.2.2"
+	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 }
 
 processResources {
