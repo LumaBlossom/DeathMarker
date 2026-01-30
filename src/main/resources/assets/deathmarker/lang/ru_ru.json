@@ -1,0 +1,10 @@
+{
+  "text.autoconfig.deathmarker.title": "Настройки DeathMarker",
+  "text.autoconfig.deathmarker.category.colors": "Цвета",
+  "text.autoconfig.deathmarker.category.behavior": "Поведение",
+  "text.autoconfig.deathmarker.option.skullColor": "Цвет черепа",
+  "text.autoconfig.deathmarker.option.timerColor": "Цвет таймера",
+  "text.autoconfig.deathmarker.option.distanceColor": "Цвет расстояния",
+  "text.autoconfig.deathmarker.option.shrinkDistance": "Расстояние уменьшения",
+  "text.autoconfig.deathmarker.option.clearDistance": "Расстояние очистки"
+}

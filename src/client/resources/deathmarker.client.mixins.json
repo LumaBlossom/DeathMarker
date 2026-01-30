@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "luma.blossom.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"LocalPlayerDeathMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

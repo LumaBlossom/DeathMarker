@@ -1,0 +1,10 @@
+{
+  "text.autoconfig.deathmarker.title": "DeathMarker Settings",
+  "text.autoconfig.deathmarker.category.colors": "Colors",
+  "text.autoconfig.deathmarker.category.behavior": "Behavior",
+  "text.autoconfig.deathmarker.option.skullColor": "Skull Color",
+  "text.autoconfig.deathmarker.option.timerColor": "Timer Color",
+  "text.autoconfig.deathmarker.option.distanceColor": "Distance Color",
+  "text.autoconfig.deathmarker.option.shrinkDistance": "Shrink Distance",
+  "text.autoconfig.deathmarker.option.clearDistance": "Clear Distance"
+}

@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "deathmarker",
+	"version": "${version}",
+	"name": "DeathMarker",
+	"description": "Shows a death marker with timer and distance to help you find your items!",
+	"authors": [
+		"LumaBlossom"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/organization/LumaBlossom",
+		"sources": "https://github.com/LumaBlossom/DeathMarker"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/deathmarker/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"luma.blossom.DeathMarker"
+		],
+		"client": [
+			"luma.blossom.DeathMarkerClient"
+		],
+		"modmenu": [
+			"luma.blossom.DeathMarkerModMenu"
+		]
+	},
+	"mixins": [
+		"deathmarker.mixins.json",
+		{
+			"config": "deathmarker.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": ">=1.20 <1.21",
+		"java": ">=17",
+		"fabric-api": "*",
+		"cloth-config": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

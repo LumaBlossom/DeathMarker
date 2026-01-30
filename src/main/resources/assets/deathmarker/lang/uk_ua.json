@@ -1,0 +1,10 @@
+{
+  "text.autoconfig.deathmarker.title": "Налаштування DeathMarker",
+  "text.autoconfig.deathmarker.category.colors": "Кольори",
+  "text.autoconfig.deathmarker.category.behavior": "Поведінка",
+  "text.autoconfig.deathmarker.option.skullColor": "Колір черепа",
+  "text.autoconfig.deathmarker.option.timerColor": "Колір таймера",
+  "text.autoconfig.deathmarker.option.distanceColor": "Колір відстані",
+  "text.autoconfig.deathmarker.option.shrinkDistance": "Відстань зменшення",
+  "text.autoconfig.deathmarker.option.clearDistance": "Відстань очищення"
+}
